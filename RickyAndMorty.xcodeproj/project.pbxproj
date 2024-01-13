@@ -22,6 +22,10 @@
 		A7C74E8C2B52ED2A004276F1 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C74E8B2B52ED2A004276F1 /* RMService.swift */; };
 		A7C74E8E2B52ED45004276F1 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C74E8D2B52ED45004276F1 /* RMRequest.swift */; };
 		A7C74E902B52EE3D004276F1 /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C74E8F2B52EE3D004276F1 /* RMEndpoint.swift */; };
+		A7C74E922B52F411004276F1 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C74E912B52F411004276F1 /* RMOrigin.swift */; };
+		A7C74E942B52F421004276F1 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C74E932B52F421004276F1 /* RMSingleLocation.swift */; };
+		A7C74E962B52F65F004276F1 /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C74E952B52F65F004276F1 /* RMCharacterStatus.swift */; };
+		A7C74E982B52F68F004276F1 /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C74E972B52F68F004276F1 /* RMCharacterGender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,10 @@
 		A7C74E8B2B52ED2A004276F1 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
 		A7C74E8D2B52ED45004276F1 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 		A7C74E8F2B52EE3D004276F1 /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
+		A7C74E912B52F411004276F1 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		A7C74E932B52F421004276F1 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
+		A7C74E952B52F65F004276F1 /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
+		A7C74E972B52F68F004276F1 /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				A7C74E7C2B51F735004276F1 /* RMLocation.swift */,
 				A7C74E7E2B51F748004276F1 /* RMCharacter.swift */,
 				A7C74E802B51F759004276F1 /* RMEpisode.swift */,
+				A7C74E912B52F411004276F1 /* RMOrigin.swift */,
+				A7C74E932B52F421004276F1 /* RMSingleLocation.swift */,
+				A7C74E952B52F65F004276F1 /* RMCharacterStatus.swift */,
+				A7C74E972B52F68F004276F1 /* RMCharacterGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -230,7 +242,10 @@
 			files = (
 				A7C74E862B51F865004276F1 /* RMLocationViewController.swift in Sources */,
 				A7C74E812B51F759004276F1 /* RMEpisode.swift in Sources */,
+				A7C74E962B52F65F004276F1 /* RMCharacterStatus.swift in Sources */,
+				A7C74E982B52F68F004276F1 /* RMCharacterGender.swift in Sources */,
 				A7C74E662B51F31A004276F1 /* RMTabViewController.swift in Sources */,
+				A7C74E942B52F421004276F1 /* RMSingleLocation.swift in Sources */,
 				A7C74E882B51F87C004276F1 /* RMEpisodeViewController.swift in Sources */,
 				A7C74E622B51F31A004276F1 /* AppDelegate.swift in Sources */,
 				A7C74E642B51F31A004276F1 /* SceneDelegate.swift in Sources */,
@@ -238,6 +253,7 @@
 				A7C74E8C2B52ED2A004276F1 /* RMService.swift in Sources */,
 				A7C74E7D2B51F735004276F1 /* RMLocation.swift in Sources */,
 				A7C74E902B52EE3D004276F1 /* RMEndpoint.swift in Sources */,
+				A7C74E922B52F411004276F1 /* RMOrigin.swift in Sources */,
 				A7C74E7F2B51F748004276F1 /* RMCharacter.swift in Sources */,
 				A7C74E8E2B52ED45004276F1 /* RMRequest.swift in Sources */,
 				A7C74E842B51F845004276F1 /* RMCharacterViewController.swift in Sources */,
